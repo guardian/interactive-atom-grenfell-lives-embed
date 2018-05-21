@@ -22,8 +22,12 @@ function init() {
         var newHTML = content(data);
 
         document.querySelector(".interactive-wrapper").innerHTML = newHTML;
+        window.resize();
 
     });
 }
+
+
+
 
 init()
